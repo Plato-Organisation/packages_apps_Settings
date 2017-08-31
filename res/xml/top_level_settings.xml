@@ -56,6 +56,14 @@
         settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
 
     <Preference
+        android:key="top_level_plato_settings"
+        android:title="@string/plato_title"
+        android:summary="@string/plato_summary"
+        android:icon="@drawable/ic_homepage_plato"
+        android:order="-85"
+        android:fragment="com.plato.settings.PlatoSettings"/>
+
+    <Preference
         android:key="top_level_display"
         android:title="@string/display_settings"
         android:summary="@string/summary_placeholder"
